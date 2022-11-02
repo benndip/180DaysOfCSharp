@@ -36,6 +36,10 @@ namespace DaysOfCSharp
             int value = Calculator.Add(2, 3);
 
             Console.WriteLine(value);
+
+            string[] names = new string[4] { "Benndip", "John", "Lord", "King" };
+
+            Console.WriteLine(names);
         }
     }
 }
