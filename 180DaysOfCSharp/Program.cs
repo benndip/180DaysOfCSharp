@@ -25,21 +25,13 @@ namespace DaysOfCSharp
     {
         public static void Main(string[] args)
         {
-            Person person= new Person();
+            Console.WriteLine("What is your name");
 
-            person.Name = "Benndip";
-            person.Age = 25;
-            person.HasPet = true;
+            string input = Console.ReadLine();
 
-            person.Greeting();
+            int number = Int32.Parse(input);
 
-            int value = Calculator.Add(2, 3);
-
-            Console.WriteLine(value);
-
-            string[] names = new string[4] { "Benndip", "John", "Lord", "King" };
-
-            Console.WriteLine(names);
+            Console.WriteLine(number + 20);
         }
     }
 }
